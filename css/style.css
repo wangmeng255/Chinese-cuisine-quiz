@@ -1,5 +1,11 @@
-svg #Hei_Long_Jiang:hover {
-	transform: translate(2px, -2px);
-	/*stroke:#BDBDBD;
-	stroke-width:1.5;*/
+svg #Zhe_Jiang:hover,
+#Jiang_Su:hover,
+#Shan_Dong:hover,
+#Si_Chuan:hover,
+#Hu_Nan:hover,
+#An_Hui:hover,
+#Guang_Dong:hover,
+#Fu_Jian:hover
+ {
+	opacity: 0.5;
 }
