@@ -1,11 +1,14 @@
 svg #Zhe_Jiang:hover,
 #Jiang_Su:hover,
 #Shan_Dong:hover,
-#Si_Chuan:hover,
+#Sichan_Chongqing:hover,
 #Hu_Nan:hover,
 #An_Hui:hover,
 #Guang_Dong:hover,
 #Fu_Jian:hover
  {
 	opacity: 0.5;
+}
+svg #Sichan_Chongqing {
+	fill: #EF5350 !important;
 }
