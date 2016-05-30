@@ -1,14 +1,50 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/*
+nav {
+	display: flex;
+	height: 1%;
+	padding: 0.2em;
+	z-index: 9999;
+	position: relative;
+}
+nav ul {
+	list-style-type: none;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+nav ul li {
+	display: inline;
+	float: right;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1.2rem;
+}*/
+.map {
+	width: 60%;
+	position: relative;
+	left: 0px;
+	top: 0px;
+}
+
+svg {
+	position: absolute;
+	/*clip: rect(250px, 1500px, 1500px, 200px);*/
+}
+
 svg #Zhe_Jiang:hover,
 #Jiang_Su:hover,
 #Shan_Dong:hover,
 #Sichan_Chongqing:hover,
 #Hu_Nan:hover,
 #An_Hui:hover,
-#Guang_Dong:hover,
+#Cantonese:hover,
 #Fu_Jian:hover
  {
 	opacity: 0.5;
 }
-svg #Sichan_Chongqing {
-	fill: #EF5350 !important;
-}
+
