@@ -2,14 +2,9 @@
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-<<<<<<< HEAD
-}
-=======
 	margin: 0;
 	padding: 0;
 }
-	
->>>>>>> master
 /*
 nav {
 	display: flex;
@@ -31,7 +26,6 @@ nav ul li {
 	font-weight: 700;
 	font-size: 1.2rem;
 }*/
-<<<<<<< HEAD
 .map {
 	width: 60%;
 	position: relative;
@@ -44,8 +38,6 @@ svg {
 	/*clip: rect(250px, 1500px, 1500px, 200px);*/
 }
 
-svg #Zhe_Jiang:hover,
-=======
 /*#Zhe_Jiang:hover,
 >>>>>>> master
 #Jiang_Su:hover,
@@ -156,21 +148,22 @@ h1 {
 	position: absolute;
 	left: 70%;
 	top: 23rem;
-	margin: 0% 7% 4%;
+	margin: 0 7%;
 	height: 12rem;
 	font-family: sans-serif;
+	width: 30%;
 }
-.circle #dishes {
+#dishes {
 	font-family: serif;
 	width: 100%;
 	font-size: 1.3rem;
-	margin-left: -1rem;
+	margin-left: -3%;
 	margin-bottom: 0.5rem;
 	margin-top: 0.5rem;
 }
-.circle #num {
+#num {
 	position: absolute;
-	width: 100%;
+	width: 50%;
 	top: 50%;
 	text-align: center;
 	font-size: 4rem;
