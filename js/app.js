@@ -9,7 +9,7 @@ $(document).ready(function() {
 	.click( function () {
 		showQues($(".saltyQuestion"), $(".circle .lu circle"), $(this), "#9FA8DA");
 	});
-	$(".saltyQuestion .sub").click (function (event) {
+	$(".saltyQuestion form").submit(function (event) {
 		event.preventDefault();
 		if($("#basidigua")[0].checked) {
 			correct += 1;
@@ -34,7 +34,7 @@ $(document).ready(function() {
 	.click( function () {
 		showQues($(".sweetQuestion"), $(".circle .yue circle"), $(this), "#80DEEA");
 	});
-	$(".sweetQuestion .sub").click (function (event) {
+	$(".sweetQuestion form").submit(function (event) {
 		event.preventDefault();
 		if($("#yuntunmian")[0].checked) {
 			correct += 1;
@@ -53,7 +53,7 @@ $(document).ready(function() {
 	.click( function () {
 		showQues($(".wildQuestion"), $(".circle .min circle"), $(this), "#C5E1A5");
 	});
-	$(".wildQuestion .sub").click (function (event) {
+	$(".wildQuestion form").submit(function (event) {
 		event.preventDefault();
 		if($("#fotiaoqiang")[0].checked) {
 			correct += 1;
@@ -70,7 +70,7 @@ $(document).ready(function() {
 	.click( function () {
 		showQues($(".spicyQuestion"), $(".circle .xiang circle"), $(this), "#CE93D8");
 	});
-	$(".spicyQuestion .sub").click (function (event) {
+	$(".spicyQuestion form").submit(function (event) {
 		event.preventDefault();
 		if($("#donganziji")[0].checked) {
 			correct += 1;
@@ -87,14 +87,35 @@ $(document).ready(function() {
 	.click( function () {
 		showQues($(".numbQuestion"), $(".circle .chuan circle"), $(this), "#EF9A9A");
 	});
-	$(".numbQuestion .sub").click (function (event) {
+	$(".numbQuestion form").submit(function (event) {
 		event.preventDefault();
 		if($("#sichuanhuoguo")[0].checked) {
 			correct += 1;
 			$("#num").text(correct);
 		}
-		$(".cd-popup-container").append("Congratulation! You've got " + String(correct) + " dishes.");
+		$(".cd-popup-container").prepend("<p>Congratulation! You've got " + String(correct) + " dishes.</p>");
 		$('.cd-popup').addClass('is-visible');
+	});
+
+	$(".cd-popup-container .cd-buttons li:first-child a").click(function() {
+		correct = 0;
+		$("#num").text(correct);
+		$('.cd-popup').removeClass('is-visible');
+		$("#numbing").css({"opacity": "0.6", "pointer-events": "none"});
+		$("#salty").css({"opacity": "1", "pointer-events": "auto"});
+		$(".cd-popup-container p").remove();
+		$(".numbQuestion").hide();
+		$(".map").fadeIn(1600, "linear");
+		$(".circle circle").each( function () {
+			$(this).css("fill", "white");
+		});
+	});
+
+	$(".cd-popup-container .cd-popup-close").click(function() {
+		$('.cd-popup').removeClass('is-visible');
+		$(".numbQuestion").hide();
+		$(".map").fadeIn(1600, "linear");
+		$("#numbing").css({"opacity": "0.6", "pointer-events": "none"});
 	});
 
 	function showQues(showSec, cirId, butt, color) {
