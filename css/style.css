@@ -78,13 +78,12 @@ h1 {
 .saltyQuestion, .sweetQuestion,
 .wildQuestion, .spicyQuestion, .numbQuestion {
 	display: none;
-	}
+}
 .map svg {
 	/*transform: translate(-70px, -200px);*/
 	display: block;
 	margin: auto;
 }
-
 .butt {
 	height: 50%;
 	width: 100%;
