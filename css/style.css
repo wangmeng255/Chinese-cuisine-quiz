@@ -4,6 +4,7 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
 }
 /*
 nav {
@@ -32,29 +33,16 @@ nav ul li {
 	left: 0px;
 	top: 0px;
 }
-
-svg {
-	position: absolute;
-	/*clip: rect(250px, 1500px, 1500px, 200px);*/
+p {
+	text-align: justify;
+	line-height: 115%;
 }
 
-/*#Zhe_Jiang:hover,
->>>>>>> master
-#Jiang_Su:hover,
-#Shan_Dong:hover,
-#Sichan_Chongqing:hover,
-#Hu_Nan:hover,
-#An_Hui:hover,
-#Cantonese:hover,
-#Fu_Jian:hover
- {
-	opacity: 0.75;
-}
-
+/*
 #Shan_Dong:hover {
 	fill: purple !important;
-}*/
-/*.map {
+}
+.map {
 	max-height: 33rem;
 	max-width: 44%;
 	overflow: hidden;
@@ -68,11 +56,11 @@ header {
 	margin-bottom: 1px;
 	padding: 0.8rem;
 	border-bottom: 5px solid #B71C1C;
-	font-family: 'Cinzel Decorative', cursive;
 }
 h1 {
    color: white;
    text-shadow: 2px 2px #212121;
+   font-family: 'Cinzel Decorative', cursive;
 }
 /*footer {
 	margin-top: 2px;
@@ -91,7 +79,7 @@ h1 {
 }
 .saltyQuestion, .sweetQuestion,
 .wildQuestion, .spicyQuestion, .numbQuestion {
-	/*display: none;*/
+	display: none;
 	}
 .map svg {
 	transform: translate(-70px, -200px);
@@ -150,11 +138,12 @@ h1 {
 	top: 23rem;
 	margin: 0 7%;
 	height: 12rem;
-	font-family: sans-serif;
 	width: 30%;
 }
+.circle text {
+	font-family: "DFKai-sb";
+}
 #dishes {
-	font-family: serif;
 	width: 100%;
 	font-size: 1.3rem;
 	margin-left: -3%;
@@ -164,7 +153,7 @@ h1 {
 #num {
 	position: absolute;
 	width: 50%;
-	top: 50%;
+	top: 49%;
 	text-align: center;
 	font-size: 4rem;
 }
@@ -174,24 +163,24 @@ h1 {
 	margin: 1rem 1rem 0.2rem;
 }
 .saltyQuestion p {
-	margin: 0.25rem 1rem;
+	margin: 0.8rem 1rem;
 	font-size: 1rem;
 }
 .sweetQuestion p {
-	margin: 0.25rem 1rem;
-	font-size: 1rem;
+	margin: 0.35rem 1rem;
+	font-size: 0.96rem;
 }
 .wildQuestion p {
-	margin: 0.3rem 1rem;
-	font-size: 1rem;
+	margin: 0.5rem 1rem;
+	font-size: 0.98rem;
 }
 .numbQuestion p {
-	margin: 0.3rem 1rem;
-	font-size: 1.05rem;
+	margin: 0.6rem 1rem;
+	font-size: 1rem;
 }
 .spicyQuestion p {
-	margin: 0.3rem 1rem;
-	font-size: 1.05rem;
+	margin: 0.6rem 1rem;
+	font-size: 1rem;
 }
 .saltyQuestion img, .sweetQuestion img,
 .wildQuestion img, .spicyQuestion img,
