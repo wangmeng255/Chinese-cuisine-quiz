@@ -375,6 +375,7 @@
   </section> 
 
   <section class="butt">
+    <p> Please start order here:</p>
     <input type="button" id="salty" value="Fresh and salty with &#x00A;a lot of seafood dishes">
     <input type="button" id="sweet" value="Light and sweet">
     <input type="button" id="wild" value="Wild mountain">
@@ -385,41 +386,50 @@
   <section class="circle">
     <p id="dishes">Dishes you have:</p>
     <svg width="190" height="190">
-      <g id="lu">
+      <g class="lu">
         <circle cx="70" cy="25" r="20" stroke="#283593" stroke-width="2" fill="white" />
         <text x="55" y="35" font-size="32">鲁</text>
       </g>
-      <g id="zhe">
+      <g class="yue">
         <circle cx="120" cy="25" r="20" stroke="#00838F" stroke-width="2" fill="white" />
         <text x="105" y="35" font-size="32">浙</text>
       </g>
-      <g id="su">
+      <g class="yue">
         <circle cx="165" cy="70" r="20" stroke="#00838F" stroke-width="2" fill="white" />
         <text x="150" y="80" font-size="32">苏</text>
       </g>
-      <g id="yue">
+      <g class="yue">
         <circle cx="165" cy="120" r="20" stroke="#00838F" stroke-width="2" fill="white" />
         <text x="150" y="130" font-size="32">粤</text>
       </g>
-      <g id="min">
+      <g class="min">
         <circle cx="120" cy="165" r="20" stroke="#558B2F" stroke-width="2" fill="white" />
         <text x="105" y="175" font-size="32">闽</text>
       </g>
-      <g id="hui">
+      <g class="min">
         <circle cx="70" cy="165" r="20" stroke="#558B2F" stroke-width="2" fill="white" />
         <text x="55" y="175" font-size="32">徽</text>
       </g>
-      <g id="xiang">
+      <g class="xiang">
         <circle cx="25" cy="120" r="20" stroke="#6A1B9A" stroke-width="2" fill="white" />
         <text x="10" y="130" font-size="32">湘</text>
       </g>
-      <g id="chuan">
+      <g class="chuan">
         <circle cx="25" cy="70" r="20" stroke="#C62828" stroke-width="2" fill="white" />
         <text x="10" y="80" font-size="32">川</text>
       </g>
     </svg>
     <p id="num">0</p>
   </section>
+  <div class="cd-popup" role="alert">
+  <div class="cd-popup-container">
+    <ul class="cd-buttons">
+      <li><a href="#0">Yes</a></li>
+      <li><a href="#0">No</a></li>
+    </ul>
+    <a href="#0" class="cd-popup-close img-replace">Close</a>
+  </div> <!-- cd-popup-container -->
+  </div> <!-- cd-popup -->
   <footer>
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
