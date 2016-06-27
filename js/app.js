@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 $(document).ready(function() {
 	var correct = 0;
 	$("#salty").hover( function() {
@@ -117,19 +117,19 @@ $(document).ready(function() {
 		$(".map").fadeIn(1600, "linear");
 		$("#numbing").css({"opacity": "0.6", "pointer-events": "none"});
 	});
-
-	function showQues(showSec, cirId, butt, color) {
-		$(".map").hide();
-		showSec.fadeIn(1600, "linear");
-		butt.css({"opacity": "0.6", "pointer-events": "none"});
-		cirId.each( function () {
-			$(this).css("fill", color);
-		});
-	}
-	function showMap(hideSec, butt)
-	{
-		hideSec.hide();
-		$(".map").fadeIn(1600, "linear");
-		butt.css({"opacity": "1", "pointer-events": "auto"});
-	}
 });
+
+function showQues(showSec, cirId, butt, color) {
+  $(".map").hide();
+  showSec.fadeIn(1600, "linear");
+  butt.css({"opacity": "0.6", "pointer-events": "none"});
+  cirId.each( function () {
+    $(this).css("fill", color);
+  });
+}
+function showMap(hideSec, butt)
+{
+  hideSec.hide();
+  $(".map").fadeIn(1600, "linear");
+  butt.css({"opacity": "1", "pointer-events": "auto"});
+}
