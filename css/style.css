@@ -131,6 +131,11 @@ h1 {
 	font-size: 4rem;
 	margin-top: -57%;
 }
+.saltyQuestion article, .sweetQuestion article, 
+.wildQuestion article, .spicyQuestion article,
+.numbQuestion article {
+  height: 20rem;
+}
 .saltyQuestion h2, .sweetQuestion h2, 
 .wildQuestion h2, .spicyQuestion h2,
 .numbQuestion h2 {
@@ -151,7 +156,7 @@ h1 {
 }
 .spicyQuestion p {
 	padding: 0.8rem 1rem;
-	font-size: 1.67rem;
+	font-size: 1.4rem;
 }
 .numbQuestion p {
   padding: 0.95rem 1rem;
