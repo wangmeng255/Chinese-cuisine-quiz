@@ -1,4 +1,6 @@
-* {
+html, body, p, header, h1, section,
+button, form, div, input, img, ul, 
+li, a {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -6,6 +8,7 @@
 	padding: 0;
 	font-family: 'Lato', Calibri, Arial, sans-serif;
 	vertical-align: baseline;
+  color: #3b4559;
 }
 p {
 	text-align: justify;
@@ -14,11 +17,11 @@ p {
 header {
 	text-align: center;
 	color: white;
-	background-color: #F44336;
+	background-color: #fc7169;
 	margin-bottom: 1px;
 	padding: 0.8rem;
 	height: 10%;
-	border-bottom: 5px solid #B71C1C;
+	border-bottom: 5px solid #fb3a2f;
 }
 h1 {
    color: white;
@@ -28,6 +31,9 @@ h1 {
 .section {
 	display: flex;
 	flex-direction: row;
+}
+.map svg {
+  fill: #9da1a7;
 }
 .map, .saltyQuestion, .sweetQuestion,
 .wildQuestion, .spicyQuestion, .numbQuestion {
@@ -48,6 +54,8 @@ h1 {
 	/*transform: translate(-70px, -200px);*/
 	display: block;
 	margin: auto;
+  width: 100%;
+  height: 100%;
 }
 .butt {
 	height: 50%;
@@ -59,20 +67,21 @@ h1 {
 	font-weight: 900;
 	margin: 3% 0 8%;
 }
-.butt input {
+.butt button {
+  color: #232935;
 	height: 2.7rem;
 	margin: 0.5rem;
 	width: 14rem;
 	display: list-item;
 	border-radius: 8px;
-	font-size: 1.03rem;
-	font-family: serif;
+	font-size: 1rem;
 	box-shadow: -2px 2px #808080;
 	cursor: pointer;
 	opacity: 0.6;
 	pointer-events: none;
+  line-height: 1rem;
 }
-.butt input:active {
+.butt button:active {
   transform: translate(-1px, 1px);
 }
 #salty {
@@ -107,6 +116,7 @@ h1 {
 }
 .circle text {
 	font-family: "DFKai-sb";
+  fill: #232935;
 }
 #dishes {
 	width: 100%;
@@ -165,16 +175,16 @@ h1 {
 }
 .sub {
 	width: 50%;
-    padding: 1.2% 20%;
-    color: #FFF;
-    background: #1abc9c;
-    font-size: 1.2rem;
-    text-align: center;
-    font-style: normal;
-    border: 1px solid #16a085;
-    border-width: 1px 1px 3px;
-    margin: 10px 25% 15px;
-    border-radius: 8px;
+  padding: 1.2% 20%;
+  color: #FFF;
+  background: #1abc9c;
+  font-size: 1.2rem;
+  text-align: center;
+  font-style: normal;
+  border: 1px solid #16a085;
+  border-width: 1px 1px 3px;
+  margin: 1rem 25% 1rem;
+  border-radius: 8px;
 }
 .sub:hover {
 	background: #109177;
@@ -198,11 +208,11 @@ a {
 	height: 100%;
 	width: 100%;
 	background-color: rgba(94, 110, 141, 0.9);
-  	opacity: 0;
-  	visibility: hidden;
-  	-webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;
-  	-moz-transition: opacity 0.3s 0s, visibility 0s 0.3s;
-  	transition: opacity 0.3s 0s, visibility 0s 0.3s;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+  -moz-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+  transition: opacity 0.3s 0s, visibility 0s 0.3s;
 }
 .cd-popup.is-visible {
   opacity: 1;
@@ -216,7 +226,7 @@ a {
   width: 90%;
   max-width: 400px;
   margin: 4em auto;
-  background: #FFF;
+  background: #ffffff;
   border-radius: .25em .25em .4em .4em;
   text-align: center;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
@@ -275,7 +285,7 @@ a {
   height: 30px;
 }
 .cd-popup-container .cd-popup-close::before, .cd-popup-container .cd-popup-close::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 12px;
   width: 14px;
