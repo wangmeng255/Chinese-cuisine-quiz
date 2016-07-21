@@ -1,6 +1,6 @@
-html, body, p, header, h1, section,
+html, body, p, header, h1, h2, section,
 button, form, div, input, img, ul, 
-li, a {
+li, a, article, label {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -88,23 +88,23 @@ h1 {
 	opacity: 1;
 	pointer-events: auto;
 	border: 2px solid #283593;
-	background-color: #9FA8DA;
+	background-color: #cacef0;
 }
 #sweet {
 	border: 2px solid #00838F;
-	background-color: #80DEEA;
+	background-color: #b6f9ff;
 }
 #wild {
 	border: 2px solid #558B2F;
-	background-color: #C5E1A5;
+	background-color: #daeecb;
 }
 #spicy {
 	border: 2px solid #6A1B9A;
-	background-color: #CE93D8;
+	background-color: #e0c0f4;
 }
 #numbing {
 	border: 2px solid #C62828;
-	background-color: #EF9A9A;
+	background-color: #f2c0c0;
 }
 .circle {
 	width: 100%;
@@ -134,28 +134,28 @@ h1 {
 .saltyQuestion h2, .sweetQuestion h2, 
 .wildQuestion h2, .spicyQuestion h2,
 .numbQuestion h2 {
-	margin: 1rem 1rem 0.2rem;
+	padding: 1rem 1rem 0 1rem;
 	font-size: 2rem;
 }
 .saltyQuestion p {
-	margin: 1.3rem 1rem;
-	font-size: 1.5rem;
+	padding: 1rem 1rem;
+	font-size: 1.55rem;
 }
 .sweetQuestion p {
-	margin: 0.4rem 1rem;
+	padding: 0.4rem 1rem;
 	font-size: 1.5rem;
 }
 .wildQuestion p {
-	margin: 0.5rem 1rem;
-	font-size: 1.5rem;
-}
-.numbQuestion p {
-	margin: 0.95rem 1rem;
+	padding: 0.5rem 1rem;
 	font-size: 1.5rem;
 }
 .spicyQuestion p {
-	margin: 0.9rem 1rem;
-	font-size: 1.5rem;
+	padding: 0.8rem 1rem;
+	font-size: 1.67rem;
+}
+.numbQuestion p {
+  padding: 0.95rem 1rem;
+  font-size: 1.5rem;
 }
 .saltyQuestion img, .sweetQuestion img,
 .wildQuestion img, .spicyQuestion img,
@@ -171,7 +171,12 @@ h1 {
 	display: inline-block;
 	width: 33%;
 	text-align: center;
-	margin: 2rem 0;
+	margin: 1.5rem 0;
+}
+.saltyQuestion label, .sweetQuestion label,
+.wildQuestion label, .spicyQuestion label,
+.numbQuestion label {
+  font-size: 1.2rem;
 }
 .sub {
 	width: 50%;
@@ -183,7 +188,7 @@ h1 {
   font-style: normal;
   border: 1px solid #16a085;
   border-width: 1px 1px 3px;
-  margin: 1rem 25% 1rem;
+  margin: 0.65rem 25% 1rem;
   border-radius: 8px;
 }
 .sub:hover {
