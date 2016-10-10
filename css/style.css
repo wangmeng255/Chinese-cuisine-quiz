@@ -38,7 +38,7 @@ h1 {
 .map, .saltyQuestion, .sweetQuestion,
 .wildQuestion, .spicyQuestion, .numbQuestion {
 	width: 70%;
-	height: 45rem;
+	height: 100vh;
 	overflow: auto;
 	border: 5px double #BDBDBD;
 }
@@ -134,7 +134,7 @@ h1 {
 .saltyQuestion article, .sweetQuestion article, 
 .wildQuestion article, .spicyQuestion article,
 .numbQuestion article {
-  height: 20rem;
+  min-height: 22rem;
 }
 .saltyQuestion h2, .sweetQuestion h2, 
 .wildQuestion h2, .spicyQuestion h2,
@@ -144,23 +144,23 @@ h1 {
 }
 .saltyQuestion p {
 	padding: 1rem 1rem;
-	font-size: 1.55rem;
+	font-size: 1.6rem;
 }
 .sweetQuestion p {
 	padding: 0.4rem 1rem;
-	font-size: 1.5rem;
+	font-size: 1.49rem;
 }
 .wildQuestion p {
 	padding: 0.5rem 1rem;
-	font-size: 1.5rem;
+	font-size: 1.55rem;
 }
 .spicyQuestion p {
 	padding: 0.8rem 1rem;
-	font-size: 1.4rem;
+	font-size: 1.55rem;
 }
 .numbQuestion p {
   padding: 0.95rem 1rem;
-  font-size: 1.5rem;
+  font-size: 1.47rem;
 }
 .saltyQuestion img, .sweetQuestion img,
 .wildQuestion img, .spicyQuestion img,
@@ -176,7 +176,7 @@ h1 {
 	display: inline-block;
 	width: 33%;
 	text-align: center;
-	margin: 1.5rem 0;
+	margin: 0.75rem 0 1.5rem 0;
 }
 .saltyQuestion label, .sweetQuestion label,
 .wildQuestion label, .spicyQuestion label,
