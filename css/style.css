@@ -38,7 +38,7 @@ h1 {
 .map, .saltyQuestion, .sweetQuestion,
 .wildQuestion, .spicyQuestion, .numbQuestion {
 	width: 70%;
-	height: 100vh;
+	max-height: 100vh;
 	overflow: auto;
 	border: 5px double #BDBDBD;
 }
@@ -130,11 +130,6 @@ h1 {
 	text-align: center;
 	font-size: 4rem;
 	margin-top: -57%;
-}
-.saltyQuestion article, .sweetQuestion article, 
-.wildQuestion article, .spicyQuestion article,
-.numbQuestion article {
-  min-height: 22rem;
 }
 .saltyQuestion h2, .sweetQuestion h2, 
 .wildQuestion h2, .spicyQuestion h2,
