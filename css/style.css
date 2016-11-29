@@ -194,8 +194,13 @@ h1 {
 }
 #num {
   position: absolute;
-  top: 43%;
-  left: 46.8%;
+  top: 57%;
+  left: 51%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   text-align: center;
   font-size: 4rem;
 }
@@ -378,8 +383,8 @@ a {
     padding: 0 5%;
   }
   #num {
-    top: 34%;
-    left: 39%;
+    top: 42%;
+    left: 43%;
   }
   .butt button {
     color: #232935;
