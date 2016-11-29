@@ -189,7 +189,7 @@ h1 {
 	width: 100%;
 	font-size: 1.3rem;
 	font-weight: 900;
-	margin-bottom: 8%;
+	margin-bottom: 6%;
 	margin-top: 1%;
 }
 #num {
@@ -384,7 +384,7 @@ a {
   }
   #num {
     top: 42%;
-    left: 43%;
+    left: 42.5%;
   }
   .butt button {
     color: #232935;
