@@ -126,7 +126,7 @@ h1 {
 .butt p {
 	font-size: 1.3rem;
 	font-weight: 900;
-	margin: 3% 0 8%;
+	margin: 0.5rem 0 1rem;
 }
 .butt button {
   color: #232935;
@@ -189,13 +189,13 @@ h1 {
 	width: 100%;
 	font-size: 1.3rem;
 	font-weight: 900;
-	margin-bottom: 6%;
-	margin-top: 1%;
+	margin-bottom: 2rem;
+	margin-top: 1rem;
 }
 #num {
   position: absolute;
-  top: 57%;
-  left: 51%;
+  top: 11.2375rem;
+  left: 50.8%;
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -383,7 +383,7 @@ a {
     padding: 0 5%;
   }
   #num {
-    top: 42%;
+    top: 10.4375rem;
     left: 42.5%;
   }
   .butt button {
@@ -412,9 +412,11 @@ a {
   }
   .butt p {
     font-size: 2rem;
+    margin-bottom: 2rem;
   }
   #dishes {
-    margin-top: 3%;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
     font-size: 2rem;
   }
   #salty {
