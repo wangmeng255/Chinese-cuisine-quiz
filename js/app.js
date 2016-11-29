@@ -1,6 +1,9 @@
 "use strict";
 $(document).ready(function() {
 	var correct = 0;
+	$(".intro a").click(function() {
+		$(".intro").removeClass("is-visible");
+	});
 	$("#salty").hover( function() {
 		$("#Shan_Dong").css({"fill": "#5C6BC0"});
 	}, function () {
