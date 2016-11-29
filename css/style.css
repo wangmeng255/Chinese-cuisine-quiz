@@ -195,7 +195,7 @@ h1 {
 #num {
   position: absolute;
   top: 43%;
-  left: 46.5%;
+  left: 47%;
   text-align: center;
   font-size: 4rem;
 }
@@ -427,6 +427,7 @@ a {
     font-size: 1.5rem;
   }
   .butt button {
+    line-height: 1.2rem;
     width: 20rem;
     padding: 0.7rem;
   }
