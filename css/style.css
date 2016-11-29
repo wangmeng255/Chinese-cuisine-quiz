@@ -147,24 +147,29 @@ h1 {
   transform: translate(-1px, 1px);
 }
 #salty {
+  font-size: 1.2rem;
 	opacity: 1;
 	pointer-events: auto;
 	border: 2px solid #283593;
 	background-color: #cacef0;
 }
 #sweet {
+  font-size: 1.2rem;
 	border: 2px solid #00838F;
 	background-color: #b6f9ff;
 }
 #wild {
+  font-size: 1.2rem;
 	border: 2px solid #558B2F;
 	background-color: #daeecb;
 }
 #spicy {
+  font-size: 1.2rem;
 	border: 2px solid #6A1B9A;
 	background-color: #e0c0f4;
 }
 #numbing {
+  font-size: 1.2rem;
 	border: 2px solid #C62828;
 	background-color: #f2c0c0;
 }
@@ -373,8 +378,8 @@ a {
     padding: 0 5%;
   }
   #num {
-    top: 39%;
-    left: 38%;
+    top: 37%;
+    left: 39%;
   }
   .butt button {
     color: #232935;
@@ -384,17 +389,45 @@ a {
   }
   .saltyQuestion h2, .sweetQuestion h2, .wildQuestion h2, .spicyQuestion h2, .numbQuestion h2 {
     padding: 1rem 1rem 0 1rem;
-    font-size: 1rem;
+    font-size: 2rem;
   }
   .saltyQuestion p, .sweetQuestion p,
   .wildQuestion p, .spicyQuestion p,
   .numbQuestion p {
     padding: 1rem 1rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   .saltyQuestion label, .sweetQuestion label,
   .wildQuestion label, .spicyQuestion label,
   .numbQuestion label {
+    font-size: 1.7rem;
+  }
+  .sub {
     font-size: 2rem;
+  }
+  .butt p {
+    font-size: 2rem;
+  }
+  #dishes {
+    font-size: 2rem;
+  }
+  #salty {
+    font-size: 1.5rem;
+  }
+  #sweet {
+    font-size: 1.5rem;
+  }
+  #wild {
+    font-size: 1.5rem;
+  }
+  #spicy {
+    font-size: 1.5rem;
+  }
+  #numbing {
+    font-size: 1.5rem;
+  }
+  .butt button {
+    width: 20rem;
+    padding: 0.7rem;
   }
 }
