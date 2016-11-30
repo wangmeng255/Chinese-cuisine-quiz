@@ -41,7 +41,6 @@ The app's functionality includes:
 ##Technical
 
 The app is built entirely in jQuery. All data is held in memory during the user's session. It has been built to be fully responsive across mobile, tablet and desktop screen resolutions.
->>>>>>> master
 
 ##Development Roadmap
 
