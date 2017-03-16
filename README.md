@@ -1,10 +1,10 @@
-#Chinese Cuisine Quiz
+# Chinese Cuisine Quiz
 
 Thinkful (https://www.thinkful.com) Portfolio Exercise - jQuery app.
 
 ![Screenshot](https://github.com/wangmeng255/Chinese-cuisine-quiz/blob/gh-pages/img/CCQ.png "Screenshot")
 
-##Background
+## Background
 
 I built this app drawing on my love of Chinese Cuisines. I want to introduce China's 8 great regional cuisines to people in the all world. 
 
@@ -14,21 +14,21 @@ Summary of the Eight Cuisines:
 * Guangdong (Cantonese), Fujian, Zhejiang, Jiangsu: great seafood, and generally sweet and light flavors.
 * Shandong Cuisine: fresh and salty with a lot of seafood dishes.
 
-##Use Case
+## Use Case
 
 You can get a rough concept and regions of eight Chinese Cuisines by this simple quiz.
 
-##Initial UX
+## Initial UX
 
 The initial mobile and desktop wireframes can be seen below:
 
 ![Initial Wireframes](https://github.com/wangmeng255/Chinese-cuisine-quiz/blob/gh-pages/img/CCQ-init.png "Initial Wireframes")
 
-##Working Prototype
+## Working Prototype
 
 You can access a working prototype of the app here: (https://github.com/wangmeng255/Chinese-cuisine-quiz)
 
-##Functionality
+## Functionality
 
 The app's functionality includes:
 
@@ -38,11 +38,11 @@ The app's functionality includes:
 * Finding one dish among three dishes belongs to the cuisine asked in questions.
 * Showing quiz results and restarting quiz.
 
-##Technical
+## Technical
 
 The app is built entirely in jQuery. All data is held in memory during the user's session. It has been built to be fully responsive across mobile, tablet and desktop screen resolutions.
 
-##Development Roadmap
+## Development Roadmap
 
 This is v1.0 of the app, but future enhancements are expected to include:
 
