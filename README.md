@@ -1,6 +1,6 @@
 # Chinese Cuisine Quiz
 
-Thinkful (https://www.thinkful.com) Portfolio Exercise - jQuery app.
+Portfolio Exercise - jQuery app.
 
 ![Screenshot](https://github.com/wangmeng255/Chinese-cuisine-quiz/blob/gh-pages/img/CCQ.png "Screenshot")
 
